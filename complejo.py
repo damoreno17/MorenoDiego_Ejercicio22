@@ -22,3 +22,7 @@ class Complejo():
         a.real = r * math.cos(n * theta)
         a.imaginario = r * math.sin(n * theta)
         return a 
+    def multi (self):
+        b = Complejo(self.real, self.imaginario)
+        a = Complejo(self.real, self.imaginario)
+        
