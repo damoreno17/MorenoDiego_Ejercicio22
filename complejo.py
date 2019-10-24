@@ -27,6 +27,5 @@ class Complejo():
         b = Complejo(ba, bb)
         a.real = self.real * b.real - self.imaginario * b.imaginario
         b.real = self.real * a.imaginario - self.imaginario * a.real 
-        
-        
+        self.real = a*b
         
